@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassportServiceX", "PassportServiceX\PassportServiceX.csproj", "{4FED02C7-F70E-C730-2E24-12725C281C35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PassportX", "PassportX\PassportX.csproj", "{CCE2C65B-E7A0-C7B3-4921-4718553479DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FED02C7-F70E-C730-2E24-12725C281C35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FED02C7-F70E-C730-2E24-12725C281C35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FED02C7-F70E-C730-2E24-12725C281C35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FED02C7-F70E-C730-2E24-12725C281C35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE2C65B-E7A0-C7B3-4921-4718553479DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE2C65B-E7A0-C7B3-4921-4718553479DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE2C65B-E7A0-C7B3-4921-4718553479DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE2C65B-E7A0-C7B3-4921-4718553479DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {702214B7-D2C1-4997-8913-C76A0CFF5648}
+	EndGlobalSection
+EndGlobal

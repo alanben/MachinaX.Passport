@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<RootNamespace>XXBoom.MachinaX.PassportServiceX</RootNamespace>
+		<AssemblyName>XXBoom.MachinaX.PassportServiceX</AssemblyName>
+
+		<AssemblyVersion>2.0.0</AssemblyVersion>
+		<FileVersion>$(AssemblyVersion)</FileVersion>
+		<Version>$(AssemblyVersion)</Version>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<IsPublishable>False</IsPublishable>
+		<Title>PassportX service library</Title>
+		<Version>$(AssemblyVersion)</Version>
+		<Authors>alanben</Authors>
+		<Company>XXBoom</Company>
+		<Description>PassportX service, classes and enums</Description>
+		<Copyright>Alan Benington</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/alanben/MachinaX.Passport</RepositoryUrl>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="log4net" Version="2.0.15" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+		<PackageReference Include="XXBoom.MachinaX" Version="2.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\PassportX\PassportX.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="System.Web.Services" />
+	</ItemGroup>
+
+</Project>
