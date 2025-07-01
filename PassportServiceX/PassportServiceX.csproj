@@ -19,8 +19,13 @@
 		<Copyright>Alan Benington</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<RepositoryUrl>https://github.com/alanben/MachinaX.Passport</RepositoryUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="log4net" Version="2.0.15" />

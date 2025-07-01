@@ -68,6 +68,23 @@ The library includes comprehensive database schemas for both:
 - **XXBoom.MachinaX.DataX** (v2.0.6) - Data access layer
 - **System.Web.Services** - Web service support
 
+## Installation
+
+### NuGet Package
+```xml
+<PackageReference Include="XXBoom.MachinaX.PassportX" Version="2.0.0" />
+```
+
+### Package Manager Console
+```powershell
+Install-Package XXBoom.MachinaX.PassportX -Version 2.0.0
+```
+
+### .NET CLI
+```bash
+dotnet add package XXBoom.MachinaX.PassportX --version 2.0.0
+```
+
 ## Configuration
 
 The library uses the DataX database provider manager for multi-database support. Configuration is handled through the `x_config` class and database tables.

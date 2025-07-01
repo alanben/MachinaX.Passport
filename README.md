@@ -76,6 +76,36 @@ dotnet build MachinaX.Passport.sln
 dotnet pack --configuration Release
 ```
 
+### NuGet Package Installation
+
+#### PassportX Core Library
+```xml
+<PackageReference Include="XXBoom.MachinaX.PassportX" Version="2.0.0" />
+```
+
+#### PassportServiceX Web Services
+```xml
+<PackageReference Include="XXBoom.MachinaX.PassportServiceX" Version="2.0.0" />
+```
+
+#### Package Manager Console
+```powershell
+# Install core library
+Install-Package XXBoom.MachinaX.PassportX -Version 2.0.0
+
+# Install web services (includes core library dependency)
+Install-Package XXBoom.MachinaX.PassportServiceX -Version 2.0.0
+```
+
+#### .NET CLI
+```bash
+# Install core library
+dotnet add package XXBoom.MachinaX.PassportX --version 2.0.0
+
+# Install web services (includes core library dependency)
+dotnet add package XXBoom.MachinaX.PassportServiceX --version 2.0.0
+```
+
 ### Database Setup
 1. Choose your database platform (SQL Server or PostgreSQL)
 2. Run the appropriate schema scripts from `PassportX/sql/`

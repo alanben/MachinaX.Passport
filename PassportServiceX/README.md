@@ -54,6 +54,23 @@ All services are exposed as SOAP web services with the following characteristics
 - Administrative functions
 - Security and permission management
 
+## Installation
+
+### NuGet Package
+```xml
+<PackageReference Include="XXBoom.MachinaX.PassportServiceX" Version="2.0.0" />
+```
+
+### Package Manager Console
+```powershell
+Install-Package XXBoom.MachinaX.PassportServiceX -Version 2.0.0
+```
+
+### .NET CLI
+```bash
+dotnet add package XXBoom.MachinaX.PassportServiceX --version 2.0.0
+```
+
 ## Dependencies
 
 - **PassportX** - Core passport library (project reference)
